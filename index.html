@@ -13,10 +13,23 @@
 
             </div>
             <div id="formulario">
-                <p>login</p>
+                <h1>Login</h1>
                 <p>Seja Bem Vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
                 <form action="login.php" method="post">
-                    
+
+                    <p>
+                        <label for="ilogin">Login:</label>
+                        <input type="email" name="login" id="ilogin" required placeholder="Digite seu Email">
+                    </p>
+
+                    <p>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" required placeholder="Senha até 8 caracteres" maxlength="8">
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar" id="ienviar">
+                    </p>
+
                 </form>
             </div>
         </section>
