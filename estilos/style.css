@@ -57,6 +57,8 @@ section#login > div#imagem {
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
+    border-radius: 0px 0px 40px 40px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.452) ;
 }
 
 div#formulario {

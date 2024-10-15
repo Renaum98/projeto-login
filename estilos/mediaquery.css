@@ -14,6 +14,8 @@
         float: left;
         width: 30%;
         height: 100%;
+        border-radius: 0px 40px 40px 0px;
+        box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.452);
     }
 
     section#login > div#formulario {
@@ -36,6 +38,8 @@
         float: right;
         width: 50%;
         height: 100%;
+        border-radius: 40px 0px 0px 40px;
+        box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.452);
     }
 
     section#login > div#formulario {
